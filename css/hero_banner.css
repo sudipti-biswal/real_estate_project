@@ -1,0 +1,12 @@
+#hero-banner {
+  width: 100%;
+  color: var(--color-secondary);
+  font-family: var(--font-poppin);
+  padding: 100px 0; }
+  #hero-banner p {
+    font-weight: 400; }
+  #hero-banner .img {
+    border-radius: 80px 80px 0px 80px;
+    overflow: hidden; }
+
+/*# sourceMappingURL=hero_banner.css.map */

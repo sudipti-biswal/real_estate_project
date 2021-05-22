@@ -1,0 +1,24 @@
+#service-section {
+  padding: 100px 0;
+  font-family: var(--font-poppin); }
+  #service-section .service-show {
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 0 30px 0 30px;
+    margin: 10px; }
+    #service-section .service-show .fas {
+      padding: 20px;
+      width: 62px;
+      background-color: #eeeeee;
+      color: var(--color-primary);
+      font-size: 20px;
+      border-radius: 100%;
+      text-align: center;
+      margin-bottom: 10px; }
+    #service-section .service-show p {
+      font-size: 13px;
+      font-weight: 400; }
+    #service-section .service-show h4 {
+      color: var(--color-secondary); }
+
+/*# sourceMappingURL=service.css.map */

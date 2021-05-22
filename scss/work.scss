@@ -1,0 +1,44 @@
+#work-section{
+	width: 100%;
+	padding: 100px 0;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: var(--font-poppin);
+	h1{
+		color: var(--color-secondary);
+	}
+	p{
+		font-weight: 400; 
+	}
+
+	.service-show{
+		padding: 20px 30px;
+		text-align: center;
+		border-radius: 0 30px 0 30px;
+		margin:10px; 
+		cursor: pointer;
+		transition:1s ease;
+        &:hover{
+	          box-shadow: 0.5rem 1rem rgba(0,0,0,.15);
+            }
+		.fas{
+			padding: 20px ;
+			width:62px;
+			background-color: #eeeeee;
+			color: var(--color-primary);
+			font-size: 20px;
+			border-radius: 100%;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 13px;
+			font-weight: 400;
+		}
+		h4{
+			color: var(--color-secondary);
+		}
+	}
+}
+
+

@@ -1,0 +1,18 @@
+#about-section{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #eeeeee;
+    font-family: var(--font-poppin);
+    h1{
+    	color: var(--color-secondary);
+    }
+	.image{
+		img{
+			width: 100%;
+		    border-radius: 80px 0px 80px 80px;
+            overflow: hidden;
+            height: 400px;
+            object-fit:cover;
+		}
+	}
+}

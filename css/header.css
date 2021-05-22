@@ -1,0 +1,22 @@
+.header {
+  width: 100%; }
+  .header nav.navbar {
+    box-shadow: none;
+    color: var(--color-secondary); }
+    .header nav.navbar .navbar-brand {
+      font-family: var(--font-poppin);
+      font-weight: 500;
+      font-size: 20px;
+      color: var(--color-secondary); }
+    .header nav.navbar .nav-item {
+      margin: auto 5px; }
+    .header nav.navbar .nav-link {
+      font-family: var(--font-poppin);
+      font-weight: 500;
+      color: var(--color-secondary);
+      padding: 10px 20px;
+      transition: 0.5s ease; }
+      .header nav.navbar .nav-link.active, .header nav.navbar .nav-link:hover {
+        color: var(--color-primary); }
+
+/*# sourceMappingURL=header.css.map */
