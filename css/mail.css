@@ -1,0 +1,21 @@
+#mail-section {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  font-family: var(--font-poppin); }
+  #mail-section .form {
+    padding: 10px 40px;
+    border-radius: 30px; }
+    #mail-section .form input {
+      border-radius: 30px;
+      padding: 15px 0px;
+      border: none; }
+      #mail-section .form input:focus {
+        border-radius: none;
+        box-shadow: none;
+        outline: none; }
+    #mail-section .form .btn-theme {
+      border-radius: 30px;
+      padding: 12px 30px; }
+
+/*# sourceMappingURL=mail.css.map */

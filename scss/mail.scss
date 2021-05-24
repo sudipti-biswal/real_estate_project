@@ -1,0 +1,25 @@
+#mail-section{
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+	font-family: var(--font-poppin);
+	.form{
+
+		padding: 10px 40px;
+		border-radius: 30px;
+		input{
+			border-radius: 30px;
+			padding: 15px 0px;
+			border:none; 
+			&:focus{
+				border-radius: none;
+                box-shadow: none;
+				outline: none;
+			}
+		}
+	    .btn-theme{
+			border-radius: 30px;
+			padding: 12px 30px;
+		}
+	}
+}

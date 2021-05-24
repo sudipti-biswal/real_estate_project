@@ -69,13 +69,13 @@
  <section id="hero-banner">
    <div class="container">
      <div class="row">
-       <div class="col-md-5 my-auto mr-auto pb-5">
+       <div class="col-md-5 my-auto mr-auto ">
          <h1 class="h1h1-responsive">Find Your Next Perfect Place To Live</h1>
          <p>In expecting display,thought. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat consectetur exercitationem aut.</p>
          <button class="btn btn-theme-2">Learn More</button>
          <button class="btn btn-play ml-3"><i class="fas fa-play"></i></button>
        </div>
-       <div class="col-md-5 ml-auto">
+       <div class="col-md-5 ml-auto my-md-auto my-5">
          <div class="img">
            <img src="img/apartment.jpg" alt="">
          </div>
@@ -521,8 +521,8 @@
 
 <!-- feature property end -->
 
-<!-- testimonial section start -->
-<section id="testimonial-section">
+ <!-- testimonial section start -->
+<!-- <section id="testimonial-section">
   <div class="container">
     <h6 class="h6 color-primary m-0">Testimonial</h6>
      <h1 class="h1 h1-responsive mb-4">What They Are Saying</h1>
@@ -543,10 +543,7 @@
             <h4 class="h4">YouTuber</h4>
             <p>Code Galexy</p>
           </div>
-        </div>
-        
-        
-    
+        </div>   
     </div>
   </div>
 
@@ -554,8 +551,81 @@
     </div>
    </div>
   </div>
+</section> -->
+<!-- testimonial section end --> -->
+
+<!-- mail section start -->
+<section id="mail-section">
+  <div class="container">
+    <h1 class="h1 h1-responsive mb-4">Have Question In Mind?<br>Let Us Help You</h1>
+    <div class="col-md-8 mx-auto form shadow mt-3">
+      <div class="row">
+        <div class="col-md-9 my-auto">
+          <input type="text" class="form-control" placeholder="Yourmail@gmail.com">
+        </div>
+        <div class="col-md-3 text-right">
+          <button class="btn btn-theme">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- testimonial section end -->
+
+<!-- mail section end -->
+
+
+<!-- footer section start -->
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <h4 class="h3">R.State</h4>
+      </div>
+      <div class="col-md-2">
+        <h6 class="m-0 h6">Quicks Link</h6>
+        <hr color="ffffff">
+        <ul>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Agency</a></li>
+          <li><a href="#">Asset Voluation</a></li>
+          <li><a href="#">Building</a></li>
+          <li><a href="#">Business Rates</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6 class="m-0 h6">Location</h6>
+        <hr color="ffffff">
+        <ul>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Asset Voluation</a></li>
+          <li><a href="#">Building</a></li>
+          <li><a href="#">Business Rates</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6 class="m-0 h6">Services</h6>
+        <hr color="ffffff">
+        <ul>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Action</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h6 class="m-0 h6">Contact</h6>
+        <hr color="ffffff">
+        <ul>
+          <li>+128 34567654</li>
+          <li>contact@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- footer section end -->
+
 </body>
 </html>
 
@@ -571,7 +641,7 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script>
-const swiper = new Swiper('#property-slider,.swiper-container', {
+const swiper = new Swiper('.swiper-container', {
   // Optional parameters
   loop: true,
     slidesPerView: 4,
